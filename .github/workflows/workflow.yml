@@ -9,9 +9,9 @@ on:
       - main
 
 #  schedule:
-#    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
-  tests:
+  run:
     runs-on: self-hosted
     strategy:
       matrix:
